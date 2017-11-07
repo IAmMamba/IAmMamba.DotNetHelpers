@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Configurations>Debug;Release;Publish</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Publish|AnyCPU'">
+    <OutputPath>Z:\iCloud Drive\Source\NugetPackages\IAmMamba.DotNetHelpers\</OutputPath>
   </PropertyGroup>
 
 </Project>
